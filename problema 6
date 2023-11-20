@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int segundos,minutos,horas;
+        cout<< "digite o numero de horas: ";
+        cin>>horas;
+        cout<< "digite o numero de minutos: ";
+        cin>>minutos;
+        cout<< "digite o numero de segundos: ";
+        cin>>segundos;
+     
+        cout<<"isto é equivalente a:"<<(horas*3600)+(minutos*60)+segundos<<" segundos";
+    return 0;
+}
